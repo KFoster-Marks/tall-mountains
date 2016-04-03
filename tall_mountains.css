@@ -1,0 +1,54 @@
+   	body {
+   		background-image: url("mountain.jpg");
+   		background-repeat: no-repeat;
+   		background-size: 100%;
+   	}
+   	.body_text {
+   		width: 33%;
+   		margin-left: 13%;
+   		margin-top: 2%;
+   		border-radius: 25px;
+   		border: 5px solid white;
+   		background-color: steelblue;
+   	}
+
+   	p {
+   		font-family: sans-serif;
+   		margin-top: ;
+   		text-align: center;
+   		color: white;
+         width: 80%;
+         margin-left: 10%;
+         text-shadow: 2px 2px 8px black;
+   	}
+
+      #button, #button2 {
+         background-color: white;
+         border-color: lightgray;
+         border-radius: 5px;
+         width: 40%;
+         text-align: center;
+         margin-left: 29%;
+         margin-bottom: 15px;
+         font-family: sans-serif;
+         font-size: .9em;
+         cursor:pointer;
+      }
+
+      #closing_text {
+         display: none;
+      }
+
+      #closestElevationResponse, #title {
+         text-align: center;
+         margin-bottom: 15px;
+         font-family: 'Fredericka the Great', cursive;
+         font-size: 2.5em;
+         text-align: center;
+         color: white;
+         text-shadow: 2px 2px 8px black;
+      }
+
+      #closestElevationResponse {
+         font-size: 1.8em;
+      }
