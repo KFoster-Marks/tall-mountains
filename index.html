@@ -1,30 +1,25 @@
 <!DOCTYPE html>
-<html>
-
-<head>
-   <title>Climb South America</title>
-   <meta charset="utf-8">
-   <link href='https://fonts.googleapis.com/css?family=Fredericka+the+Great' rel='stylesheet' type='text/css'>
-   <link rel="stylesheet" type="text/css" href="tall_mountains.css">
-   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-   <script src="tall_mountains.js" type="text/javascript"></script>
-</head>
-
-<body>
-
-	<div class="body_text" id="opening_text" style="position:relative">
-		<div id="title">Climb South America</div>
-		<p>Some of the tallest, most daunting mountains in the world can be found in The Andean mountain range in South America. Are you ready to climb?</p> 
-		<button id="button">Find a mountain</button>
-	</div>
-
-	<div class="body_text" id="closing_text" style="position:absolute; left: 0px; top: 0px;">
-		<div id="title">Climb South America</div>
-		<p>Some of the most beautiful, climb-worthy mountains in South America range from <span id="shortestElevationDisplay"></span> to just under <span id="tallestElevationDisplay"></span> feet. How high do you want to climb?</p> 
-		<p><input type="text" id="elevationUserInput" value="In feet,  no commas"></p>
- 		<button id="button2" onclick="myFunction()">Find a mountain</button>
- 		<div id="closestElevationResponse"></div>
-	</div>
-
-</body>
+<html lang="en">
+	<head>
+	   <title>Climb South America</title>
+	   <meta charset="utf-8">
+	   <link href='https://fonts.googleapis.com/css?family=Fredericka+the+Great' rel='stylesheet' type='text/css'>
+	   <link rel="stylesheet" type="text/css" href="tall_mountains.css">
+	   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	   <script src="tall_mountains.js" type="text/javascript"></script>
+	</head>
+	<body>
+		<div class="body_text" id="opening_text">
+			<div id="title">Climb South America</div>
+			<p>Some of the tallest, most daunting mountains in the world can be found in The Andean mountain range in South America. Are you ready to climb?</p> 
+			<button id="button">Find a mountain</button>
+		</div>
+		<div class="body_text" id="closing_text">
+			<div id="title">Climb South America</div>
+			<p>Some of the most beautiful, climb-worthy mountains in South America range from <span id="shortestElevationDisplay"></span> to just under <span id="tallestElevationDisplay"></span> feet. How high do you want to climb?</p> 
+			<p><input type="text" id="elevationUserInput" value="In feet,  no commas"></p>
+	 		<button id="button2" onclick="myFunction()">Find a mountain</button>
+	 		<div id="closestElevationResponse"></div>
+		</div>
+	</body>
 </html>
